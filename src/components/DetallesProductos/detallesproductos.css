@@ -1,0 +1,12 @@
+.img1{
+    width: 400px;
+    
+}
+.contenedor{
+    display: block;
+    grid-template-columns: repeat(1,auto);
+    margin-top: 60px;
+    height: 80vh;
+    background-color: rgb(253, 252, 250);
+    text-align: center;
+}

@@ -20,7 +20,7 @@ const ProdList = () => {
             key={Prod.id}
             onClick={() => setSelectedProd(Prod)}
           >
-            <img src={Prod.image} alt={Prod.product_name} />
+            <img className='img' src={Prod.image} alt={Prod.product_name} />
             <h3>{Prod.product_name}</h3>
             <h4>{Prod.brand}</h4>
             <h4>{Prod.price}</h4>
