@@ -9,12 +9,10 @@ const Home = () => {
         <ProdProvider>
             <Header />
             <div className='home-container'>
-                <div className='izquierdo'>
+                
                     <Productos />
-                </div>
-                <div className='derecho'>
-                    <DetallesProductos />
-                </div>
+                
+                
         </div>
     </ProdProvider>
 )

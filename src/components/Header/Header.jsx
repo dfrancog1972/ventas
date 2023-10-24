@@ -37,20 +37,20 @@ return (
             <input
                 className='header__input-search'
                 type='search'
-                placeholder='Search a Prod...'
+                placeholder='Buscar Producto...'
                 onChange={handleSearch}
             />
 
             <div className='header__now-playing-container'>
                 <span className='header__now-playing'>
-                Now playing:
+                Producto Seleccionado:
                 </span>
                 <span className='header__Prod-detail'>
                 {selectedProd.product_name} - {selectedProd.brand}
                 </span>
             </div>
 
-            <div>
+            {/* <div>
                 <button
                 className='header__button'
                 onClick={shuffle}
@@ -68,7 +68,7 @@ return (
                 onClick={nextProd}
                 > Next ▶️
                 </button>
-            </div>
+            </div> */}
             </>
             )
         : <h2>Cargando...</h2>
