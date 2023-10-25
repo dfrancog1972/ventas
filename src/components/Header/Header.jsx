@@ -29,7 +29,7 @@ const shuffle = () => {
 
 return (
     <>
-    <nav className='header__container'>
+    <nav className='header'>
         <a className='header__logo' href='/'>LOGO</a>
         <ul className='header__nav-list'>
             <li className='header__list-item'>
